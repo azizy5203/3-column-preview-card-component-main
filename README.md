@@ -17,7 +17,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/order-summary-component-using-html-and-css-q1C0iq24a)
-- Live Site URL: [Github Pages](https://azizy5203.github.io/order_summary_component/)
+- Live Site URL: [Github Pages](https://azizy5203.github.io/3-column-preview-card-component-main/)
 
 ## Author
 
