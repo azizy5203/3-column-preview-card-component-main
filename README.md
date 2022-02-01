@@ -12,7 +12,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Project_Screenshot](/DesktopScreenshot)
+![Project_Screenshot](/DesktopScreenshot.png)
 
 ### Links
 
