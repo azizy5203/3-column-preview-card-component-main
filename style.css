@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+body{
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 0%, 95%);
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+section{
+    padding: 3em 3em;
+    width: 14vw;
+    height: 60vh;
+    display: grid;
+    grid-template-rows: 10% 20% 60%;
+    row-gap: 0;
+}
+.sedan{
+    background-color:#E28525;
+}
+.suv{
+    background-color: #016972;
+}
+.lux{
+    background-color: #00403F;
+}
+
+.carSection img{
+    align-self: start;
+}
+.carSection h2{
+    color: hsl(0, 0%, 95%);
+    font-size: 29pt;
+    font-weight: 700;
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+.carSection p{
+    color: rgb(240, 239, 239);
+    font-family: 'Lexend Deca' , sans-serif;
+    font-weight: 400;
+    align-self: flex-start;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+.carSection a{
+    text-decoration: none;
+    font-family: 'Lexend Deca' , sans-serif;
+    font-size: 11pt;
+    background-color: hsl(0, 0%, 95%);
+    align-self: end;
+    justify-self: start;
+    padding: 1em 2em;
+    border-radius: 50px;
+    box-sizing: content-box;
+}
+
+.carSection a:hover{
+    background: none;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid #f2f2f2;
+}
+
+.sedan a{
+    color: #E28525;
+}
+.sedan p{
+    padding: 0 0 10px;
+}
+
+.suv a{
+    color: #016972;
+}
+.suv p{
+    padding: 0 2px;
+}
+
+.lux a{
+    color: #00403F;
+}
+.lux p{
+    padding: 0 2px;
+
+}
+
+.attribution {
+font-size: 11px;
+text-align: center;
+color: hsl(0, 3%, 20%);
+font-weight: bold;
+font-family: Lexend Deca;
+}
+.attribution a {
+color: hsl(228, 45%, 44%);
+}
+
+@media(max-width:376px){
+    body{
+        display: block;
+        color: hsl(0, 0%, 95%);
+    }
+    main{
+        display: grid;
+        grid-template-columns: 100%;
+        background-color: red;
+        top: 0;
+        left: 0;
+    }
+    main section{
+        justify-self: start;
+        width: 70vw;
+        height: 70vh;
+        margin: auto;
+    }
+    h2{
+        font-size: 40pt !important;
+        align-self: center !important;
+    }
+    p{
+        padding: 0px !important;
+        font-size: 16pt !important;
+        font-weight: 300 !important;
+        align-self: start !important;
+    }
+
+}
